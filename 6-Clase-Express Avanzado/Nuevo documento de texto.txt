@@ -1,0 +1,14 @@
+https://developer.mozilla.org/es/docs/Web/HTTP/Status
+
+https://www.guru99.com/json-vs-xml-difference.html
+
+Pregunta de ENTREVISTA:
+QUE ES UNA API API REST.
+
+https://www.postman.com/
+
+Recuerden, si quieren pueden usar la extension de Vs CodeThunder Client, 
+que es muy similar a Postman
+
+Y se utiliza desde VS Code sin la necesidad de abrir otra aplicación
+

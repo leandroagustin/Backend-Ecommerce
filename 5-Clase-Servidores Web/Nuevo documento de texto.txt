@@ -1,0 +1,11 @@
+Me adelanto, pero si quieren ir viendo los mensajes HTTP les dejo una pagina
+ un toque graciosa para verlos:
+ https://http.cat/
+
+El tutorial de Mozilla esta genial para entender todo el tema:
+ https://developer.mozilla.org/es/docs/Learn/Forms/Sending_and_retrieving_form_data
+
+https://expressjs.com/es/
+
+https://charming-ninth-ton.glitch.me/
+

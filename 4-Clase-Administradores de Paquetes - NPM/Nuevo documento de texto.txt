@@ -1,0 +1,22 @@
+https://dmitripavlutin.com/javascript-fetch-async-await/
+
+El siguiente articulo me ayudo a entenderlo mejor:
+https://claire-deboer.medium.com/how-to-use-fetch-with-async-await-vs-promise-chaining-28015235fd2a
+
+https://ed.team/comunidad/javascript-require-vs-import-es6
+
+cual es la diferencia entre require() y from {} import?
+son distintas formas de realizar importaciones de modulos
+https://ed.team/comunidad/javascript-require-vs-import-es6
+
+Aparte de eso el import lo podes usar solo al comienzo de archivo, el require lo podes usar en cualquier parte del archivo
+https://stackoverflow.com/questions/31354559/using-node-js-require-vs-es6-import-export
+
+Si, para que sirve package-lock?
+Es un fichero que contiene información acerca de tu proyecto. Además de listar los paquetes de los que depende.
+
+Ejercicio de ENTREVISTA TECNICA de NODE JS:
+
+Ejercicio 1: min 00:27:45
+
+Pagina de colores https://www.npmjs.com/package/colors.
