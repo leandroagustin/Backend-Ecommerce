@@ -1,8 +1,9 @@
-
 const fs = require("fs");
 
 const writeFileAsync = async (arr) => {
-  await fs.promises.writeFile( "./productos.txt", JSON.stringify(arr, null, 2),
+  await fs.promises.writeFile(
+    "./productos.txt",
+    JSON.stringify(arr, null, 2),
     "utf-8"
   );
 };
@@ -89,14 +90,15 @@ const PORT = 8080 || process.env.PORT;
 
 app.get("/productos", async (req, res) => {
   let data = await readFileAsync();
-  res.json(data);
+  res.json({ data });
 });
 
 app.get("/productoRandom", async (req, res) => {
   let data = await readFileAsync();
   let dataFile = JSON.parse(data);
   const random = Math.floor(Math.random() * dataFile.length) + 1;
-  res.send(dataFile[random]);
+  //Como me devuelve la posicion del objeto, le sumo un 1 para que me lo devuelva finalmente por el id.
+  res.send(dataFile[random]); //Llamo el objeto en  aleatorio que me devuelve el valor de random
 });
 
 app.listen(PORT, () => {
